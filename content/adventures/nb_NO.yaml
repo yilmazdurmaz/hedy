@@ -2410,13 +2410,13 @@ adventures:
                 story_text: |
                      På nivå 1 kan du lage din egne virtuelle restaurant og ta imot dine gjesters bestillinger.
                 example_code: |
-                      ```
-                     {print} Velkommen til Hedys restaurant 🍟
-                     {ask} Hva har du lyst å bestille?
-                     {echo} Så du vil bestille
-                     {print} Takk for din bestilling!
-                     {print} Den er på vei!
-                     ```
+                    ```
+                    {print} Velkommen til Hedys restaurant 🍟
+                    {ask} Hva har du lyst å bestille?
+                    {echo} Så du vil bestille
+                    {print} Takk for din bestilling!
+                    {print} Den er på vei!
+                    ```
                 story_text_2: |
                     Kan du tenke deg flere linjer du kan legge til restaurantens kode? For eksempe, kan du spørre gjestene hva de har lyst å drikke, fortelle de prisen eller å ønske de et godt måltid?
                 start_code: '# skriv koden din her'
