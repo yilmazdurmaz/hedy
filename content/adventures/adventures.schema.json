@@ -1,5 +1,5 @@
 {
-  "title": "JSON Schema for Hedy Adventures",
+  "title":  "JSON Schema for Hedy Adventures",
   "type": "object",
   "additionalProperties": false,
   "properties": {
