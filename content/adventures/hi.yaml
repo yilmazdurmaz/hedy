@@ -742,16 +742,16 @@ adventures:
                 story_text: |-
                     `{ask}` {and} `{print}` अभी भी वैसे ही काम करते हैं जैसे उन्होंने स्तर 4 में किया था।
 
-                     स्तर 5 में कुछ नया है, `{if}`! `{if}` से आप दो अलग-अलग विकल्पों में से चुन सकते हैं।
+                    स्तर 5 में कुछ नया है, `{if}`! `{if}` से आप दो अलग-अलग विकल्पों में से चुन सकते हैं।
 
 
-                     यह कोड अच्छा प्रिंट करता है यदि आप हेडी को एक नाम के रूप में दर्ज करते हैं, और बू! अगर आप कुछ और दर्ज करते हैं।
+                    यह कोड अच्छा प्रिंट करता है यदि आप हेडी को एक नाम के रूप में दर्ज करते हैं, और बू! अगर आप कुछ और दर्ज करते हैं।
 
-                     जब हम यह जांचना चाहते हैं कि सूची में कुछ है या नहीं, तो अब हम वस्तु और सूची के बीच 'in' का उपयोग कर सकते हैं।
+                    जब हम यह जांचना चाहते हैं कि सूची में कुछ है या नहीं, तो अब हम वस्तु और सूची के बीच 'in' का उपयोग कर सकते हैं।
 
                     यह कोड सुंदर प्रिंट करता है! यदि आप हरा या पीला चुनते हैं, और मेह अन्यथा।
 
-                     स्तर 5 में भी, टैब में असाइनमेंट अधिक से अधिक कठिन होते जा रहे हैं। तो, उन्हें बाएं से दाएं करें।
+                    स्तर 5 में भी, टैब में असाइनमेंट अधिक से अधिक कठिन होते जा रहे हैं। तो, उन्हें बाएं से दाएं करें।
                 example_code: |-
                     ```
                     नाम {is} {ask} 'आपका नाम क्या है?'
@@ -763,15 +763,15 @@ adventures:
             6:
                 story_text: |-
                     `{ask}`, `{print}` और `{if}` अभी भी स्तर 5 की तरह काम करते हैं।
-                     लेकिन स्तर 6 में आप कुछ नया सीखते हैं: अब आप गणना भी कर सकते हैं।
+                    लेकिन स्तर 6 में आप कुछ नया सीखते हैं: अब आप गणना भी कर सकते हैं।
 
                     जोड़ आसान है, आप इसे गणित के जैसे लिखते हैं: उदाहरण के लिए `5 + 5`। घटाव भी ठीक काम करता है, यह `5 - 5` है।
 
                     {times} थोड़ा अलग है, क्योंकि आपके कीबोर्ड पर कोई {times} चिन्ह नहीं है। बस खोजें, वास्तव में ऐसा नहीं है!
-                     इसलिए हम 8 के ऊपर के तारक से गुणा करते हैं: `5 * 5` । इसे "5 गुना 5" के रूप में पढ़ें जो आपको इसे सबसे अच्छी तरह याद रखने में मदद करता है।
+                    इसलिए हम 8 के ऊपर के तारक से गुणा करते हैं: `5 * 5` । इसे "5 गुना 5" के रूप में पढ़ें जो आपको इसे सबसे अच्छी तरह याद रखने में मदद करता है।
 
 
-                     हम भंडारण में भी बदलाव करते हैं! जब हम कोई नाम या नंबर इस तरह से स्टोर करते हैं, तो अब आप `{is}` के बदले `=` का उपयोग कर सकते हैं:
+                    हम भंडारण में भी बदलाव करते हैं! जब हम कोई नाम या नंबर इस तरह से स्टोर करते हैं, तो अब आप `{is}` के बदले `=` का उपयोग कर सकते हैं:
                 example_code: |-
                     ```
                     {print} '5 जमा 5' 5 + 5
@@ -1529,7 +1529,7 @@ adventures:
                     {print} _You see..._
                     {sleep}
                     {print} monsters {at} {random}
-                     ```
+                    ```
                 start_code: '# place your code here'
             5:
                 story_text: |
@@ -2918,7 +2918,7 @@ adventures:
                         print 'Go to the airport at 02.00'
                     else
                         print 'Go to the trainstation at 10.00'
-                     ```
+                    ```
                 start_code: '# place your code here'
     sleep_command:
         name: '{sleep}'
@@ -3621,7 +3621,7 @@ adventures:
                     ### Exercise 1
                     This code creates three black triangles, change that into five pink squares.
 
-                     **(extra)** Create a figure of your own choosing consisting of at least two different shapes types.
+                    **(extra)** Create a figure of your own choosing consisting of at least two different shapes types.
                 example_code: |
                     ```
                     {color} {black}
@@ -3641,7 +3641,7 @@ adventures:
                     ### Exercise 1
                     Add a 90 degree turn in the loop, so that a spiral is drawn.
                     Add at least 5 numbers to the list, so the spiral grows larger.
-                     **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
+                    **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
                     ### Exercise 2
                     The spiral is drawn outwards, make it go inwards?
                 example_code: |

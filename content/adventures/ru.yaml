@@ -771,12 +771,12 @@ adventures:
                     {if} имя {is} Хеди {print} 'круто!' {else} {print} 'meh'
             6:
                 story_text: |
-                     На этом уровне вы узнаете кое-что новое: теперь вы также можете вычислять.
+                    На этом уровне вы узнаете кое-что новое: теперь вы также можете вычислять.
 
-                     Плюс - это просто, вы пишете его как в математике: `5 + 5`, например. Минус также работает хорошо, это `5 - 5`.
+                    Плюс - это просто, вы пишете его как в математике: `5 + 5`, например. Минус также работает хорошо, это `5 - 5`.
 
-                     Со временем все немного иначе, потому что на клавиатуре нет символа времени. Просто поищите, его действительно нет!
-                     Поэтому мы умножаем со звездочкой над 8: `5 * 5`. Читайте это как "5 умножить на 5", это поможет вам лучше запомнить.
+                    Со временем все немного иначе, потому что на клавиатуре нет символа времени. Просто поищите, его действительно нет!
+                    Поэтому мы умножаем со звездочкой над 8: `5 * 5`. Читайте это как "5 умножить на 5", это поможет вам лучше запомнить.
                 example_code: |
                     ```
                     {print} '5 plus 5 is ' 5 + 5
@@ -893,7 +893,7 @@ adventures:
                     Сейчас мы познакомимся с новыми предметами. Возможно, вы уже знаете их из математики: `<` и `>`.
                     С помощью `<` проверяется, меньше ли первое число второго, например, возраст `<` 12 проверяется, меньше ли возраст 12.
                     Если вы хотите проверить, меньше или равно ли первое число второму, вы можете использовать `<=`, например, возраст `<=` 11.
-                     `>` проверяет, больше ли первое число второго, например points `>` 10 проверяет, больше ли points 10.
+                    `>` проверяет, больше ли первое число второго, например points `>` 10 проверяет, больше ли points 10.
                     Если вы хотите проверить, больше или равно ли первое число второму, вы можете использовать `>=`, например points `>=` 11.
                     Эти сравнения используются в `{if}`, например, так:
                 example_code: |
@@ -1524,7 +1524,7 @@ adventures:
                     {print} Вы видите... _
                     {sleep}
                     {print} монстры {at} {random}
-                     ```
+                    ```
                 start_code: '# разместите здесь свой код'
             5:
                 story_text: |
@@ -2774,7 +2774,7 @@ adventures:
                     В этом уровне вы можете попрактиковаться в использовании переменных, чтобы в следующем уровне вы могли провести игру "Камень, ножницы, бумага"!
                 example_code: |
                     ```
-                     {is} {ask} камень, бумага или ножницы?
+                    {is} {ask} камень, бумага или ножницы?
                     {print} Я выбираю _
                     ```
                 start_code: '# разместите здесь свой код'
@@ -2949,7 +2949,7 @@ adventures:
                         {print} 'Поехать в аэропорт в 02.00'
                     {else}
                         {print} 'Отправиться на вокзал в 10.00'
-                     ```
+                    ```
                 start_code: '# поместите свой код здесь'
     sleep_command:
         name: '{sleep}'
@@ -3665,7 +3665,7 @@ adventures:
                     ### Exercise 1
                     This code creates three black triangles, change that into five pink squares.
 
-                     **(extra)** Create a figure of your own choosing consisting of at least two different shapes types.
+                    **(extra)** Create a figure of your own choosing consisting of at least two different shapes types.
                 example_code: |
                     ```
                     {color} {black}
@@ -3685,7 +3685,7 @@ adventures:
                     ### Exercise 1
                     Add a 90 degree turn in the loop, so that a spiral is drawn.
                     Add at least 5 numbers to the list, so the spiral grows larger.
-                     **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
+                    **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
                     ### Exercise 2
                     The spiral is drawn outwards, make it go inwards?
                 example_code: |

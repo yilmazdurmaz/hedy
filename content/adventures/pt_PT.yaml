@@ -715,14 +715,14 @@ adventures:
                 story_text: |
                     `ask` funciona no nível 4 tal como funcionava no nível 3, mas `print` está diferente agora.
 
-                     Tens de colocar o texto que queres escrever entre aspas simples.
+                    Tens de colocar o texto que queres escrever entre aspas simples.
 
-                     Isto é útil, porque agora podes escrever todas as palavras que queres. O mesmo se aplica às palavras com que costumavas guardar algo usando `is`.
+                    Isto é útil, porque agora podes escrever todas as palavras que queres. O mesmo se aplica às palavras com que costumavas guardar algo usando `is`.
 
-                     A maioria das linguagens de programação também usam aspas simples quando querem escrever, por isso, estamos um passo mais próximos da realidade da programação!
+                    A maioria das linguagens de programação também usam aspas simples quando querem escrever, por isso, estamos um passo mais próximos da realidade da programação!
 
-                     Vais encontrar os comandos à esquerda, novamente, e as tarefas nos separadores seguintes. À medida que avanças pelos separadores, as tarefas vão ficando mais difíceis.
-                     Por isso, é melhor começares pela esquerda na história e ires avançando para a direita, para que o desafio vá aumentando, gradualmente.
+                    Vais encontrar os comandos à esquerda, novamente, e as tarefas nos separadores seguintes. À medida que avanças pelos separadores, as tarefas vão ficando mais difíceis.
+                    Por isso, é melhor começares pela esquerda na história e ires avançando para a direita, para que o desafio vá aumentando, gradualmente.
                 example_code: |
                     ```
                     print 'You need to use quotation marks from now on!'
@@ -734,12 +734,12 @@ adventures:
                 story_text: |
                     `ask` e `print` funcionam como no nível 4.
 
-                     No nível 5 temos algo novo, o `if`! Com o `if` podes escolher entre duas opções diferentes.
+                    No nível 5 temos algo novo, o `if`! Com o `if` podes escolher entre duas opções diferentes.
 
-                     Este código escreve Fixe! se colocares Hedy como nome e boo! se colocares outra coisa qualquer.
+                    Este código escreve Fixe! se colocares Hedy como nome e boo! se colocares outra coisa qualquer.
 
 
-                     Também no nível 5 as tarefas que vais encontrar nos separadores estão a tornar-se mais difíceis. Por isso, completa-as da esquerda para a direita.
+                    Também no nível 5 as tarefas que vais encontrar nos separadores estão a tornar-se mais difíceis. Por isso, completa-as da esquerda para a direita.
                 example_code: |-
                     ```
                     nome is ask 'Como te chamas?'
@@ -751,14 +751,14 @@ adventures:
             6:
                 story_text: |
                     `ask`, `print` e `if` ainda funcionam como nos nível 5.
-                     Mas no nível 6 temos algo novo, também podes fazer cálculos.
+                    Mas no nível 6 temos algo novo, também podes fazer cálculos.
 
-                     No nível 6 acrescentamos novos símbolos e agora tu podes fazer cálculos dentro do teu código.
+                    No nível 6 acrescentamos novos símbolos e agora tu podes fazer cálculos dentro do teu código.
 
-                     A soma é fácil, escreves tal como fazes em Matemática: `5 + 5`, por exemplo. A subtração também funciona na perfeição, é `5 - 5`.
+                    A soma é fácil, escreves tal como fazes em Matemática: `5 + 5`, por exemplo. A subtração também funciona na perfeição, é `5 - 5`.
 
-                     A multiplicação é um pouco diferente, porque não existe o símbolo de multiplicar no teu teclado. Podes procurar à vontade, não existe mesmo!
-                     Por esse motivo, multiplicamos utilizando o asterisco: `5 * 5`. Lê isto como 5 vezes 5 e assim será mais fácil memorizar.
+                    A multiplicação é um pouco diferente, porque não existe o símbolo de multiplicar no teu teclado. Podes procurar à vontade, não existe mesmo!
+                    Por esse motivo, multiplicamos utilizando o asterisco: `5 * 5`. Lê isto como 5 vezes 5 e assim será mais fácil memorizar.
                 example_code: |-
                     ```
                     print '5 mais 5 é ' 5 + 5
@@ -1501,7 +1501,7 @@ adventures:
                     {print} _You see..._
                     {sleep}
                     {print} monsters {at} {random}
-                     ```
+                    ```
                 start_code: '# place your code here'
             5:
                 story_text: |
@@ -2889,7 +2889,7 @@ adventures:
                         print 'Go to the airport at 02.00'
                     else
                         print 'Go to the trainstation at 10.00'
-                     ```
+                    ```
                 start_code: '# place your code here'
     sleep_command:
         name: '{sleep}'
@@ -3595,7 +3595,7 @@ adventures:
                     ### Exercise 1
                     This code creates three black triangles, change that into five pink squares.
 
-                     **(extra)** Create a figure of your own choosing consisting of at least two different shapes types.
+                    **(extra)** Create a figure of your own choosing consisting of at least two different shapes types.
                 example_code: |
                     ```
                     {color} {black}
@@ -3615,7 +3615,7 @@ adventures:
                     ### Exercise 1
                     Add a 90 degree turn in the loop, so that a spiral is drawn.
                     Add at least 5 numbers to the list, so the spiral grows larger.
-                     **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
+                    **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
                     ### Exercise 2
                     The spiral is drawn outwards, make it go inwards?
                 example_code: |

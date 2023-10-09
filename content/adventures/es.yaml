@@ -1568,7 +1568,7 @@ adventures:
                     {print} Ves...
                     {sleep}
                     {print} monstruo {at} {random}
-                     ```
+                    ```
                 start_code: '# pon tú código aquí'
             5:
                 story_text: |
@@ -3022,7 +3022,7 @@ adventures:
                         {print} 'Ve al aeropuerto a las 02.00'
                     {else}
                         {print} 'Ve a la estación de tren a las 10.00'
-                     ```
+                    ```
                 start_code: '# pon tu código aquí'
     sleep_command:
         name: '{sleep}'
@@ -3668,7 +3668,7 @@ adventures:
                     ### Ejercicio 1
                     Este código crea tres triángulos negros, cámbialo a cinco cuadrados rosados.
 
-                     **Extra** Crea una figura de tu elección que consista de al menos dos tipos diferentes de formas.
+                    **Extra** Crea una figura de tu elección que consista de al menos dos tipos diferentes de formas.
                 example_code: |
                     ```
                     {color} {black}
@@ -3688,7 +3688,7 @@ adventures:
                     ### Exercise 1
                     Add a 90 degree turn in the loop, so that a spiral is drawn.
                     Add at least 5 numbers to the list, so the spiral grows larger.
-                     **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
+                    **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
                     ### Exercise 2
                     The spiral is drawn outwards, make it go inwards?
                 example_code: |

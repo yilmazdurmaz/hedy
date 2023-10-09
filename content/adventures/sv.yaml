@@ -1593,7 +1593,7 @@ adventures:
                     {print} Du ser ...
                     {sleep}
                     {print} monster {at} {random}
-                     ```
+                    ```
                 start_code: '# skriv din kod här'
             5:
                 story_text: |
@@ -1873,9 +1873,9 @@ adventures:
             14:
                 story_text: |
                     Vi kommer att lära oss fler nya saker. Du kanske redan känner till dem från matematiken, `<` och `>`.
-                     `<` kollar om det första talet är mindre än det andra, t.ex. ålder `<` 12 kontrollerar om ålder är mindre än 12.
+                    `<` kollar om det första talet är mindre än det andra, t.ex. ålder `<` 12 kontrollerar om ålder är mindre än 12.
                     Om du vill kolla om det första talet är mindre eller lika med det andra kan du använda `<=`, t.ex. ålder `<=` 11.
-                     `>` kollar om det första talet är större än det andra, t.ex. poäng `>` 10 kollar om poäng är större än 10.
+                    `>` kollar om det första talet är större än det andra, t.ex. poäng `>` 10 kollar om poäng är större än 10.
                     Om du vill kolla om det första talet är större eller lika med det andra kan du använda `>=`, t.ex. poäng `>=` 11.
                     Du använder dessa jämförelser i en `{if}`, så här:
                 example_code: |
@@ -3046,7 +3046,7 @@ adventures:
                         {print} 'Åk till flygplatsen kl. 02.00'
                     {else}
                         {print} 'Åk till tågstationen kl. 10.00'.
-                     ```
+                    ```
                 start_code: '# ha din kod här'
     sleep_command:
         name: '{sleep}'
@@ -3692,7 +3692,7 @@ adventures:
                     ### Övning 1
                     Den här koden skapar tre svarta trianglar – ändra det till fem rosa kvadrater.
 
-                     **Extrauppgift** Skapa en figur som du själv väljer som består av minst två olika former.
+                    **Extrauppgift** Skapa en figur som du själv väljer som består av minst två olika former.
                 example_code: |
                     ```
                     {color} {black}
@@ -3712,7 +3712,7 @@ adventures:
                     ### Exercise 1
                     Add a 90 degree turn in the loop, so that a spiral is drawn.
                     Add at least 5 numbers to the list, so the spiral grows larger.
-                     **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
+                    **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
                     ### Exercise 2
                     The spiral is drawn outwards, make it go inwards?
                 example_code: |

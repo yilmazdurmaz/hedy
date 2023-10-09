@@ -1473,7 +1473,7 @@ adventures:
                     {print} 你看见...
                     {sleep}
                     {print} 怪物们{at} {random}
-                     ```
+                    ```
                 start_code: '# 将你的代码写在这里'
             5:
                 story_text: |
@@ -2730,10 +2730,10 @@ adventures:
                 story_text: |
                     在这一级，你可以用嵌套的`{if}`命令来编程石头剪刀布。你能完成这段代码吗？
 
-                     ### 练习
+                    ### 练习
                     你能完成代码吗？程序必须能判断赢家以及对应的组合是什么。
 
-                     **（另外）** 想玩多玩几个游戏吗？拓展代码，以便您可以多玩几个回合。您甚至可以使用 `{ask}` 询问用户他们想玩多少回合。
+                    **（另外）** 想玩多玩几个游戏吗？拓展代码，以便您可以多玩几个回合。您甚至可以使用 `{ask}` 询问用户他们想玩多少回合。
                 example_code: |
                     ```
                     选项 {is} 石头，剪刀，布
@@ -3540,7 +3540,7 @@ adventures:
                     ### Exercise 1
                     Add a 90 degree turn in the loop, so that a spiral is drawn.
                     Add at least 5 numbers to the list, so the spiral grows larger.
-                     **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
+                    **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
                     ### Exercise 2
                     The spiral is drawn outwards, make it go inwards?
                 example_code: |

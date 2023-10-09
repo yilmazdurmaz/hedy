@@ -1852,13 +1852,13 @@ levels:
                 {print} 'Välj rätt låda och vinn!'
                 låda = {ask} 'Vilken låda väljer du? 1 eller 2?'
                 {if} låda {is} 1
-                     åtgärd = {ask} 'Öppna den eller sälj den?'
+                    åtgärd = {ask} 'Öppna den eller sälj den?'
                          {if} åtgärd {is} sälj
                              {print} 'Du säljer din låda för 10 dollar'
                          {if} åtgärd {is} öppna
                              {print} 'Du öppnar lådan och vinner en äppelpaj'
                 {if} låda {is} 2
-                     åtgärd = {ask} 'Öppna den eller sälj den?'
+                    åtgärd = {ask} 'Öppna den eller sälj den?'
                          {if} åtgärd {is} sälj
                              {print} 'Du säljer lådan för 500 dollar'
                          {if} åtgärd {is} öppna

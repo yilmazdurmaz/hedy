@@ -1323,27 +1323,27 @@ levels:
             mp_choice_options:
             -   option: |-
                     Otobüsün tekerlekleri
-                     dönüyor ve dönüyor
+                    dönüyor ve dönüyor
                 feedback: Sadece ikinci satır 3 kez tekrarlanır
             -   option: |-
                     Otobüsün tekerlekleri
                     Otobüsün tekerlekleri
                     Otobüsün tekerlekleri
-                     dönüyor ve dönüyor
+                    dönüyor ve dönüyor
                 feedback: Sadece ikinci satır 3 kez tekrarlanır
             -   option: |-
                     Otobüsün tekerlekleri
-                     dönüyor ve dönüyor
+                    dönüyor ve dönüyor
                     Otobüsün tekerlekleri
-                     dönüyor ve dönüyor
+                    dönüyor ve dönüyor
                     Otobüsün tekerlekleri
-                     dönüyor ve dönüyor
+                    dönüyor ve dönüyor
                 feedback: Sadece ikinci satır 3 kez tekrarlanır
             -   option: |-
                     Otobüsün tekerlekleri
-                     dönüyor ve dönüyor
-                     dönüyor ve dönüyor
-                     dönüyor ve dönüyor
+                    dönüyor ve dönüyor
+                    dönüyor ve dönüyor
+                    dönüyor ve dönüyor
                 feedback: Tüm şehir boyunca! Mükemmel!
             hint: Sadece ' dönüyor ve dönüyor' 3 kez tekrarlanır.
             correct_answer: D
@@ -1852,16 +1852,16 @@ levels:
                 {print} 'Doğru kasayı seçin ve kazanın!'
                 kasa = {ask} 'Hangi kasayı seçeceksin? 1 mi 2 mi?'
                 {if} kasa {is} 1
-                     eylem = {ask} 'Açacak mısın yoksa satacak mısın?'
-                     {if} eylem {is} sat
+                    eylem = {ask} 'Açacak mısın yoksa satacak mısın?'
+                    {if} eylem {is} sat
                          {print} 'Kasayı 10 dolara satıyorsun.'
-                     {if} eylem {is} aç
+                    {if} eylem {is} aç
                          {print} 'Kasayı açıyorsun ve bir elmalı turta kazanıyorsun'
                 {if} kasa {is} 2
-                     eylem = {ask} 'Açacak mısın yoksa satacak mısın?'
-                     {if} eylem {is} sat
+                    eylem = {ask} 'Açacak mısın yoksa satacak mısın?'
+                    {if} eylem {is} sat
                          {print} 'Kasayı 500 dolara satıyorsun.'
-                     {if} eylem {is} aç
+                    {if} eylem {is} aç
                          {print} 'Kasayı açıyorsun ve bir milyon dolar kazanıyorsun!'
             mp_choice_options:
             -   option: kasa 1, sat

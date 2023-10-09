@@ -3030,7 +3030,7 @@ adventures:
                         {print} 'Gehe um 2 Uhr zum Flughafen'
                     {else}
                         {print}  'Gehe um 10 Uhr zum Bahnhof'
-                     ```
+                    ```
                 start_code: '# setze hier deinen Code hin'
     sleep_command:
         name: '{sleep}'
@@ -3695,7 +3695,7 @@ adventures:
                     ### Exercise 1
                     Add a 90 degree turn in the loop, so that a spiral is drawn.
                     Add at least 5 numbers to the list, so the spiral grows larger.
-                     **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
+                    **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
                     ### Exercise 2
                     The spiral is drawn outwards, make it go inwards?
                 example_code: |

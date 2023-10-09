@@ -748,12 +748,12 @@ adventures:
                     {if} nomo {is} Hedy {print} 'bone!' {else} {print} 'ba!'
             6:
                 story_text: |
-                     En ĉi tiu nivelo, vi lernas ion novan: vi povas nun ankaŭ kalkuli.
+                    En ĉi tiu nivelo, vi lernas ion novan: vi povas nun ankaŭ kalkuli.
 
-                     La pluso estas facila; vi skribas ĝin simile al matematiko: `5 + 5` ekzemple. La minuso ankaŭ funkcias bone, jen `5 - 5`.
+                    La pluso estas facila; vi skribas ĝin simile al matematiko: `5 + 5` ekzemple. La minuso ankaŭ funkcias bone, jen `5 - 5`.
 
-                     La multipliko estas iom malsamaj, ĉar ne ekzistas la multipliko-signo en via klavaro. Nu, serĉu; ĝi vere ne ekzistas!
-                     Tial oni multiplikas per la asterisko (ofte la klavo 8 kun la majuskliga klavo): `5 * 5`. Legu tion kiel «5 multiplikite per 5», por helpi la memoradon.
+                    La multipliko estas iom malsamaj, ĉar ne ekzistas la multipliko-signo en via klavaro. Nu, serĉu; ĝi vere ne ekzistas!
+                    Tial oni multiplikas per la asterisko (ofte la klavo 8 kun la majuskliga klavo): `5 * 5`. Legu tion kiel «5 multiplikite per 5», por helpi la memoradon.
                 example_code: |
                     ```
                     {print} '5 plus 5 estas ' 5 + 5
@@ -1496,7 +1496,7 @@ adventures:
                     {print} _You see..._
                     {sleep}
                     {print} monsters {at} {random}
-                     ```
+                    ```
                 start_code: '# via kodo ĉi tie'
             5:
                 story_text: |
@@ -2409,7 +2409,7 @@ adventures:
         levels:
             1:
                 story_text: |
-                     En Nivelo 1, vi povas krei vian propran virtualan restoracion kaj preni la mendojn de viaj gastoj.
+                    En Nivelo 1, vi povas krei vian propran virtualan restoracion kaj preni la mendojn de viaj gastoj.
                 example_code: |
                     ```
                     {print} Bonvenon al Restoracio Hedy 🍟
@@ -2887,7 +2887,7 @@ adventures:
                         {print} 'Iru al la flughaveno je la 2a horo'
                     {else}
                         {print} 'Iru al la stacidomo je la 10a horo'
-                     ```
+                    ```
                 start_code: '# via kodo ĉi tie'
     sleep_command:
         name: '{sleep}'
@@ -3580,7 +3580,7 @@ adventures:
                     ### Exercise 1
                     This code creates three black triangles, change that into five pink squares.
 
-                     **(extra)** Create a figure of your own choosing consisting of at least two different shapes types.
+                    **(extra)** Create a figure of your own choosing consisting of at least two different shapes types.
                 example_code: |
                     ```
                     {color} {black}
@@ -3600,7 +3600,7 @@ adventures:
                     ### Exercise 1
                     Add a 90 degree turn in the loop, so that a spiral is drawn.
                     Add at least 5 numbers to the list, so the spiral grows larger.
-                     **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
+                    **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
                     ### Exercise 2
                     The spiral is drawn outwards, make it go inwards?
                 example_code: |

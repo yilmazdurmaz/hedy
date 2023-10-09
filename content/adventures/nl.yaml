@@ -2203,7 +2203,7 @@ adventures:
             18:
                 story_text: |-
                     We gaan nu echte Python code programmeren! Dat betekent dat we vanaf nu haakjes moeten gebruiken bij `{print}` en `{range}`.
-                     Het betekent ook dat je nu in andere Python omgevingen kunt gaan programmeren met Hedy code. Je moet hierbij dan wel de Engelse commando's gebruiken. Als je de Engelse commando's nog niet gebruikte, dan kun je nu de schakelaar omzetten in het commandomenu.
+                    Het betekent ook dat je nu in andere Python omgevingen kunt gaan programmeren met Hedy code. Je moet hierbij dan wel de Engelse commando's gebruiken. Als je de Engelse commando's nog niet gebruikte, dan kun je nu de schakelaar omzetten in het commandomenu.
                 example_code: |
                     ```
                     {print}('Hallo!')
@@ -2280,7 +2280,7 @@ adventures:
                 story_text_2: |
                     ## Hoge komma's
                     Let op! Omdat we nu aanhalingstekens gebruiken, raakt Hedy in de war als je een hoge komma wil gebruiken in woorden zoals: Auto's.
-                     Zorg dus dat je de hoge komma's weghaalt en de spelling dus aanpast naar: Autos.
+                    Zorg dus dat je de hoge komma's weghaalt en de spelling dus aanpast naar: Autos.
                     In het voorbeeldje hieronder zie je wat er gebeurt als je de hoge komma's wel gewoon blijft gebruiken.
                 example_code_2: |
                     ```
@@ -3672,7 +3672,7 @@ adventures:
                     ### Opdracht 1
                     De voorbeeldcode tekent drie zwarte driehoeken, verander dat in vijf roze vierkanten.
 
-                     **(extra)** Maak je eigen figuur bestaande uit minstens twee verschillende vormen.
+                    **(extra)** Maak je eigen figuur bestaande uit minstens twee verschillende vormen.
                 example_code: |
                     ```
                     {color} {black}
@@ -3692,7 +3692,7 @@ adventures:
                     ### Exercise 1
                     Add a 90 degree turn in the loop, so that a spiral is drawn.
                     Add at least 5 numbers to the list, so the spiral grows larger.
-                     **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
+                    **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
                     ### Exercise 2
                     The spiral is drawn outwards, make it go inwards?
                 example_code: |

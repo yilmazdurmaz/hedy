@@ -1861,13 +1861,13 @@ levels:
                 {print} 'Wähle den richtigen Koffer und gewinne!'
                 koffer = {ask} 'Welchen Koffer wählst du? 1 oder 2?'
                 {if} koffer {is} 1
-                     aktion = {ask} 'Öffnen oder verkaufen?'
+                    aktion = {ask} 'Öffnen oder verkaufen?'
                          {if} aktion {is} verkaufen
                              {print} 'Du verkaufst deinen Koffer für 10 Euro'
                          {if} aktion {is} öffnen
                              {print} 'Du öffnest den Koffer und gewinnst einen Apfelkuchen'
                 {if} koffer {is} 2
-                     aktion = {ask} 'Öffnen oder verkaufen?'
+                    aktion = {ask} 'Öffnen oder verkaufen?'
                          {if} aktion {is} verkaufen
                              {print} 'Du verkaufst deinen Koffer für 500 Euro'
                          {if} aktion {is} öffnen

@@ -1852,16 +1852,16 @@ levels:
                 {print} 'Choose the right case and win!'
                 case = {ask} 'Which case will you pick? 1 or 2?'
                 {if} case {is} 1
-                     action = {ask} 'Open it or sell it?'
-                     {if} action {is} sell
+                    action = {ask} 'Open it or sell it?'
+                    {if} action {is} sell
                          {print} 'You sell your case for 10 dollars'
-                     {if} action {is} open
+                    {if} action {is} open
                          {print} 'You open the case and win an apple pie'
                 {if} case {is} 2
-                     action = {ask} 'Open it or sell it?'
-                     {if} action {is} sell
+                    action = {ask} 'Open it or sell it?'
+                    {if} action {is} sell
                          {print} 'You sell the case for 500 dollars'
-                     {if} action {is} open
+                    {if} action {is} open
                          {print} 'You open the case and win a million dollars!'
             mp_choice_options:
             -   option: case 1, sell

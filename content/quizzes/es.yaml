@@ -1852,16 +1852,16 @@ levels:
                 {print} '¡Elige el caso correcto y gana!'
                 caso = {ask} '¿Qué caso escogerás? 1 o 2?'
                 {if} caso {is} 1
-                     acción = {ask} '¿Abrirlo o venderlo?'
-                     {if} acción {is} vender
+                    acción = {ask} '¿Abrirlo o venderlo?'
+                    {if} acción {is} vender
                          {print} 'Vendes tu caso por 10 dólares'
-                     {if} acción {is} abierta
+                    {if} acción {is} abierta
                          {print} 'Abres el caso y ganas una tarta de manzana'
                 {if} caso {is} 2
-                     acción = {ask} '¿Abrirlo o venderlo?'
-                     {if} acción {is} vender
+                    acción = {ask} '¿Abrirlo o venderlo?'
+                    {if} acción {is} vender
                          {print} 'Vendes el estuche por 500 dólares'
-                     {if} acción {is} abierta
+                    {if} acción {is} abierta
                          {print} '¡Abre el caso y gana un millón de dólares!'
             mp_choice_options:
             -   option: caso 1, vende

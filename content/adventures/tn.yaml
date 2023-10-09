@@ -748,12 +748,12 @@ adventures:
                     {if} leina {is} Hedy {print} 'cool!' {else} {print} 'meh'
             6:
                 story_text: |
-                     Mo legatong le, o tla ithuta sengwe se sesha: Gape otlaa dirisa dipalo.
+                    Mo legatong le, o tla ithuta sengwe se sesha: Gape otlaa dirisa dipalo.
 
-                     Go thakanya go motlhofo, o kwala lotshwao la teng fela jaaka la dipallo: `5 + 5` jaana. Go fokotsa go bereka sentle, go tshwana le `5 - 5`.
+                    Go thakanya go motlhofo, o kwala lotshwao la teng fela jaaka la dipallo: `5 + 5` jaana. Go fokotsa go bereka sentle, go tshwana le `5 - 5`.
 
-                     Gontsifatsa go farologana go le sekae ka gore ga gona lotshwao la gontsifatsa fago tobediwang sebala makgolo. O kanna wa senka, galeyo!
-                     Ke kamoo fare ntsifatsa re dirisa asterisk fagodimo 8: `5 * 5`. Go balega ele "5 ntsifatsa ka 5" mo go ka go thusa go gakologelwa botoka.
+                    Gontsifatsa go farologana go le sekae ka gore ga gona lotshwao la gontsifatsa fago tobediwang sebala makgolo. O kanna wa senka, galeyo!
+                    Ke kamoo fare ntsifatsa re dirisa asterisk fagodimo 8: `5 * 5`. Go balega ele "5 ntsifatsa ka 5" mo go ka go thusa go gakologelwa botoka.
                 example_code: |
                     ```
                     {print} '5 o tlhakanya le 5 ke ' 5 + 5
@@ -1498,7 +1498,7 @@ adventures:
                     {print} _You see..._
                     {sleep}
                     {print} monsters {at} {random}
-                     ```
+                    ```
                 start_code: '# place your code here'
             5:
                 story_text: |
@@ -2411,7 +2411,7 @@ adventures:
         levels:
             1:
                 story_text: |
-                     In level 1 you can make your own virtual restaurant and take your guests' orders.
+                    In level 1 you can make your own virtual restaurant and take your guests' orders.
                 example_code: |
                     ```
                     {print} Welcome to Hedy's restaurant 🍟
@@ -2889,7 +2889,7 @@ adventures:
                         print 'Go to the airport at 02.00'
                     else
                         print 'Go to the trainstation at 10.00'
-                     ```
+                    ```
                 start_code: '# place your code here'
     sleep_command:
         name: '{sleep}'
@@ -3582,7 +3582,7 @@ adventures:
                     ### Exercise 1
                     This code creates three black triangles, change that into five pink squares.
 
-                     **(extra)** Create a figure of your own choosing consisting of at least two different shapes types.
+                    **(extra)** Create a figure of your own choosing consisting of at least two different shapes types.
                 example_code: |
                     ```
                     {color} {black}
@@ -3602,7 +3602,7 @@ adventures:
                     ### Exercise 1
                     Add a 90 degree turn in the loop, so that a spiral is drawn.
                     Add at least 5 numbers to the list, so the spiral grows larger.
-                     **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
+                    **(extra)** can you change the spiral into another shape? Experiment with numbers for the turn!
                     ### Exercise 2
                     The spiral is drawn outwards, make it go inwards?
                 example_code: |

@@ -163,9 +163,9 @@ levels:
             code: |-
                 comptador = 11
                 {repeat} 10 {times}
-                     comptador = comptador - 1
-                     {print} comptador
-                     {sleep} 1
+                    comptador = comptador - 1
+                    {print} comptador
+                    {sleep} 1
                 {print} 'Llest o no, ves que vinc!'
     9:
         1:

@@ -1612,7 +1612,7 @@ adventures:
                     {print} You see...
                     {sleep}
                     {print} monsters {at} {random}
-                     ```
+                    ```
                 start_code: '# place your code here'
             5:
                 story_text: |
@@ -3069,7 +3069,7 @@ adventures:
                         {print} 'Go to the airport at 02.00'
                     {else}
                         {print} 'Go to the trainstation at 10.00'
-                     ```
+                    ```
                 start_code: '# place your code here'
     sleep_command:
         name: '{sleep}'
@@ -3715,7 +3715,7 @@ adventures:
                     ### Exercise 1
                     This code creates three black triangles, change that into five pink squares.
 
-                     **Extra** Create a figure of your own choosing consisting of at least two different shapes types.
+                    **Extra** Create a figure of your own choosing consisting of at least two different shapes types.
                 example_code: |
                     ```
                     {color} {black}
