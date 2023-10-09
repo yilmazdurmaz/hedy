@@ -608,8 +608,7 @@ adventures:
                     ```
                 start_code: '# Vendoseni kodin tuaj këtu'
             13:
-                story_text: |4
-
+                story_text: |
                     ### Exercise 1
                     Let's make the practice program a bit harder. The player now has to answers two questions correctly. Fill out the blanks to complete the program.
 
@@ -758,7 +757,7 @@ adventures:
                     emri {is} {ask} 'si e ke emrin?'
                     {if} emri {is} Hedy {print} 'mirë!' {else} {print} 'meh'
             6:
-                story_text: |4
+                story_text: |
                      Në këtë nivel ju do të mësoni diçka të re: ju tash mund të kalkuloni.
 
                      Plusi është i lehtë, mund ta shkruani si në matematik: për shembull `5 + 5`. Gjithashtu punon edhe minusi, është `5 - 5`.
@@ -1007,8 +1006,7 @@ adventures:
                     {if} hedhja {is} krimi_tokes pikët = pikët+ 5 {else} pikët= pikët + hedhja
                     {print} 'këto janë' pikët ' pikë'
                     ```
-                example_code_2: |4
-
+                example_code_2: |
                     A mundët që të kalkuloni pikët për 8 zare? U desh të kopjoni shumë apo? Ne do ta bëjmë më të lehtë në nivelin 7!
                 start_code: '{print} ''Çfarë do të tregojë zari këtë herë'''
             7:
@@ -1256,8 +1254,7 @@ adventures:
                 story_text: |
                     Në nivelet e mëparshme ju keni krijuar makinën tuaj të parë të tregimit të fatit, por Hedy nuk mund të parashikonte asgjë, vetëm {echo}.
                     Në këtë nivel, ju mund të përdorni një variabël dhe komandën `{at} {random}` për ta lënë Hedy-n të zgjedhë një përgjigje për ju. Shikoni këtë kod për shembull:
-                example_code: |4
-
+                example_code: |
                     Në këtë shembull, lojtari mund të {ask} Hedy-t një pyetje po-jo dhe Hedy do të zgjedhë një përgjigje të rastësishme për ju.
                     ```
                     {print} I’m Hedy the fortune teller!
@@ -2436,7 +2433,7 @@ adventures:
         description: Krijoni restorantin tuaj virtual
         levels:
             1:
-                story_text: |4
+                story_text: |
                      Në nivelin 1 ju mund të bëni restorantin tuaj virtual dhe të merrni porosi nga klientët.
                 example_code: |
                     ```
@@ -2541,8 +2538,7 @@ adventures:
             6:
                 story_text: |
                     Në këtë nivel mund të përdorni matematikën për të kalkuluar çmimin total të klientit tuaj, e cila do ta bëjë restorantin tuaj më reale.
-                example_code: |4
-
+                example_code: |
                     Ju mund ta bëni një kod të thjeshtë për restorant, si kështu:
                     ```
                     {print} 'Mirë se erdhët në Restorant Hedy'
@@ -2757,8 +2753,7 @@ adventures:
                     ```
                 start_code: '# Vendoseni kodin tuaj këtu'
             3:
-                story_text: |4
-
+                story_text: |
                     Në këtë nivel mund të futni një listë and të zgjidhni nga ajo.
                     Në fillim e bëni një listë me komandën `{is}`. Dhe pastaj mund ta bëni që kompjuteri za zgjedhë një nga lista me komandën `{at} {random}`.
                     Si për shembull, ju mund ta bëni që kompjuteri të zgjedhë gur, letër, gërshërë.

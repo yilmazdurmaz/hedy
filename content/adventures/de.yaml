@@ -630,8 +630,7 @@ adventures:
                     ```
                 start_code: '# setze hier deinen Code hin'
             13:
-                story_text: |4
-
+                story_text: |
                       ### Übung 1
                       Wir wollen das Übungsprogramm etwas schwieriger gestalten. Der Spieler muss nun zwei Fragen richtig beantworten. Fülle die Lücken aus, um das Programm zu vervollständigen.
 
@@ -1042,8 +1041,7 @@ adventures:
                     {if} Wurf {is} Regenwurm Punkte = Punkte + 5 {else} Punkte = Punkte + Wurf
                     {print} 'Jetzt hast Du ' Punkte ' Punkte.'
                     ```
-                example_code_2: |4
-
+                example_code_2: |
                       Ist es dir gelungen, die Gesamtpunktzahl für 8 Würfel auszurechnen? Dafür musstest du ganz schön viel hin und her kopieren, oder?In Level 7 machen wir das einfacher!
                 start_code: '{print} ''Was wird der Würfel diesmal anzeigen?'''
             7:
